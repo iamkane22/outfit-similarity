@@ -1,0 +1,14 @@
+{
+  "item2item_precision@10": 0.33035,
+  "item2item_hit@1": 0.425,
+  "item2item_map@10": 0.2527812185059209,
+  "zeroshot_type_accuracy": 0.743191372692378,
+  "zeroshot_type_macro_f1": 0.724173041435485,
+  "zeroshot_type_classes": 41.0,
+  "zeroshot_colour_accuracy": 0.5461784817796244,
+  "zeroshot_colour_macro_f1": 0.4715251830233285,
+  "zeroshot_colour_classes": 22.0,
+  "text2image_recall@1": 0.1305,
+  "text2image_recall@10": 0.4415,
+  "text2image_mrr": 0.23386830257312965
+}
