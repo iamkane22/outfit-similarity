@@ -70,7 +70,10 @@ Answer from the real index for the first query:
 Filters (`gender`, `category`) are applied inside the index, so a filtered query still
 returns `k` results when they exist. Invalid input gets proper status codes (404 for an
 unknown item, 415 for a file that is not an image, 422 for bad parameters).
-`make app` starts a Streamlit page with the same search and a "more like this" click-through.
+`make app` starts a search page: free-text search with example queries, search by photo,
+gender and category filters, and a "similar items" click-through on every product.
+
+![Search page](docs/demo.png)
 
 ## Design
 
